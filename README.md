@@ -1,10 +1,6 @@
 # gem5 Hello World Simulation
 
-**Student:** Naveen Nallani  
-**Course:** Computer Architecture  
-**Date:** October 28, 2025  
-
-This project demonstrates running a simple “Hello, World!” program using the gem5 simulator with the X86 CPU model in syscall emulation (SE) mode.
+This repository contains the setup, build, and execution steps for running a simple “Hello, World” program using the gem5 simulator.
 
 ---
 
