@@ -1,25 +1,18 @@
 # gem5 Hello World Simulation
 
-This repository contains the setup, build, and execution steps for running a simple “Hello, World” program using the gem5 simulator.
+This repository contains my Week 3 Assignment for **MSCS-531: Exploring Memory Hierarchy Design in gem5.**
 
 ---
 
-## Files
-- `hello.c` – Source code for the C program.
-- `hello` – Compiled static executable.
-- `run_hello.py` – gem5 configuration script.
+## 🧠 Overview
+This project demonstrates a simple x86 "Hello World" program executed in the **gem5** simulator to analyze memory hierarchy, cache configurations, and virtual memory design.  
+The experiment validates CPU–memory interaction and helps understand cache performance in system architecture.
 
 ---
 
-## Commands Used
+## ⚙️ Setup Instructions
+
+### 1️⃣ Build gem5
 ```bash
-# Build gem5 (done once)
 cd ~/gem5
 scons build/X86/gem5.opt -j4
-
-# Compile the hello world binary
-gcc hello.c -static -o hello
-
-# Run the gem5 simulation
-~/gem5/build/X86/gem5.opt run_hello.py
-
